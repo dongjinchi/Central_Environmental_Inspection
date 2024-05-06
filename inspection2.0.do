@@ -1,5 +1,6 @@
-cd E:\05我的坚果云\02环境投诉电话论文\小论文\02data
-insheet using inspection.csv ,clear
+cd ~\02data
+/// the authors do no have the permission to share the data
+insheet using inspection.csv ,clear 
 
 gen time1 = date(date,"YMD")
 xtset city time1
